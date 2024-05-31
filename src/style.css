@@ -20,11 +20,11 @@ article {
     align-items: center;
     background-color: #fff;
     border-radius: 20px;
-    width: 360px;
-    height: 490px;
+    width: 370px;
+    height: 520px;
     padding: 20px;
     box-shadow: 7px 7px 0px rgba(0, 0, 0, 1);
-    border: 2px solid #000;
+    border: 2px solid hsl(0, 0%, 7%);
 }
 
 img {
