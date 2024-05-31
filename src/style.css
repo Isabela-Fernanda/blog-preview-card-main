@@ -21,10 +21,10 @@ article {
     background-color: #fff;
     border-radius: 20px;
     width: 370px;
-    height: 520px;
+    height: 540px;
     padding: 20px;
     box-shadow: 7px 7px 0px rgba(0, 0, 0, 1);
-    border: 2px solid hsl(0, 0%, 7%);
+    border: 2px solid hsl(0, 0%, 50%);
 }
 
 img {
@@ -52,6 +52,7 @@ img {
 
 .data {
     font-weight: 500;
+    font-size: 14px;
 }
 
 article:hover {
