@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    font-family: 'figtree', sans-serif;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 20px;
+ }
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 360px;
+    height: 490px;
+    padding: 20px;
+    box-shadow: 7px 7px 0px rgba(0, 0, 0, 1);
+    border: 2px solid #000;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.text {
+    margin: 20px 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+span{
+    max-width: max-content;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: hsl(47, 88%, 63%);
+}
+
+span, h2, .usuario p {
+    font-weight: 800;
+}
+
+.data {
+    font-weight: 500;
+}
+
+article:hover {
+    box-shadow: 15px 15px 0px rgba(0, 0, 0, 1);
+}
+
+.titulo:hover {
+    color:  hsl(47, 88%, 63%);
+}
+
+.descricao {
+    font-weight: 500;
+    color: hsl(0, 0%, 50%);
+}
+
+.usuario {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.usuario img {
+    width: 35px;
+    margin-right: 10px;
+}
